@@ -1,0 +1,6 @@
+<svg width="158" height="33" viewBox="0 0 158 33" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Social Feed">
+  <rect x="0" y="1.5" width="30" height="30" rx="8" fill="#1890FF"/>
+  <path d="M8 10.5H22M8 16.5H22M8 22.5H15" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="21.5" cy="22.5" r="2.2" fill="#FFFFFF"/>
+  <text x="38" y="23" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#1A202C">Social<tspan fill="#1890FF">Feed</tspan></text>
+</svg>
