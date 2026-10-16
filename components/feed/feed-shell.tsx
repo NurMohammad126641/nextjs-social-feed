@@ -16,16 +16,16 @@ type FeedShellProps = {
 };
 
 const suggestedPeople = [
-  { name: "Steve Jobs", role: "CEO of Apple", image: "/assets/images/people1.png" },
-  { name: "Ryan Roslansky", role: "CEO of Linkedin", image: "/assets/images/people2.png" },
-  { name: "Dylan Field", role: "CEO of Figma", image: "/assets/images/people3.png" },
+  { name: "Maya Chen", role: "Product Designer", image: "/assets/images/people1.png" },
+  { name: "Omar Haque", role: "Backend Engineer", image: "/assets/images/people2.png" },
+  { name: "Lena Brooks", role: "Data Analyst", image: "/assets/images/people3.png" },
 ];
 
 const storyCards = [
   { image: "/assets/images/card_ppl1.png", label: "Your Story", mini: false },
-  { image: "/assets/images/card_ppl2.png", label: "Ryan Roslansky", mini: true },
-  { image: "/assets/images/card_ppl3.png", label: "Dylan Field", mini: true },
-  { image: "/assets/images/card_ppl4.png", label: "Steve Jobs", mini: true },
+  { image: "/assets/images/card_ppl2.png", label: "Omar Haque", mini: true },
+  { image: "/assets/images/card_ppl3.png", label: "Lena Brooks", mini: true },
+  { image: "/assets/images/card_ppl4.png", label: "Maya Chen", mini: true },
 ];
 
 export function FeedShell({ currentUser, posts }: FeedShellProps) {
@@ -211,8 +211,8 @@ export function FeedShell({ currentUser, posts }: FeedShellProps) {
                             <img src="/assets/images/Avatar.png" alt="Avatar" className="_ppl_img" />
                           </div>
                           <div className="_right_inner_area_info_box_txt">
-                            <h4 className="_right_inner_area_info_box_title">Radovan SkillArena</h4>
-                            <p className="_right_inner_area_info_box_para">Founder &amp; CEO at Trophy</p>
+                            <h4 className="_right_inner_area_info_box_title">Arif Rahman</h4>
+                            <p className="_right_inner_area_info_box_para">Engineering Manager</p>
                           </div>
                         </div>
                         <div className="_right_info_btn_grp">

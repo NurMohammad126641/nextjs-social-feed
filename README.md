@@ -11,6 +11,14 @@ secure cookie sessions, public and private posts with image uploads, nested comm
 and likes everywhere, including "liked by" lists. Privacy rules are enforced on the server for
 reads and writes, not just hidden in the UI.
 
+![Feed: composer, stories and posts](docs/screenshots/feed.jpg)
+
+| Sign-in | Comments, replies and "liked by" |
+|---|---|
+| ![Login page](docs/screenshots/login.jpg) | ![Comment thread with likes](docs/screenshots/conversation.jpg) |
+
+*Screenshots of a local run with the bundled seed data. All people and accounts are fictional.*
+
 ## Features
 
 - **Accounts:** registration and login validated with Zod, bcrypt password hashing, and a signed
